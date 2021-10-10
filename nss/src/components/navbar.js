@@ -5,7 +5,7 @@ import csvtu from "../Images/csvtulogo.jpg";
 function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-light nav-bg fixed-top py-2"
+      className="navbar navbar-expand-lg navbar-light nav-bg  py-2"
       id="mainNav"
     >
       <div className="container">
@@ -33,7 +33,7 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="myNavbar">
+        {/* <div className="collapse navbar-collapse" id="myNavbar">
           <ul className="navbar-nav ml-auto my-2 my-lg-0">
             <li className="nav-item">
               <a className="nav-link" href="#">
@@ -76,6 +76,157 @@ function Navbar() {
               </a>
             </li>
           </ul>
+        </div> */}
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                HOME
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                ORGANIZATION
+              </a>
+              <ul
+                class="dropdown-menu me-auto "
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Action
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Another action
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Something else here
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                AWARDS
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                ACTIVITIES
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Action
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Another action
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Something else here
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                CO-ORDINATORS
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                DOC
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Action
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Another action
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Something else here
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                FUTURE PLANS
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                ANNOUNCEMENT
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                CONTACT
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
         </div>
       </div>
     </nav>

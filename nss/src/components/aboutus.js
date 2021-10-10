@@ -88,7 +88,7 @@ function Aboutus() {
                     className="img"
                     style={{
                       backgroundImage:
-                        'url(${require("./images/nss-logo.png")})',
+                        'url(${require("../images/nss-logo.png")})',
                     }}
                   ></div>
                   <h3>
@@ -106,9 +106,9 @@ function Aboutus() {
                 <div className="tab-pane container p-0" id="about-2">
                   <div
                     className="img"
-                    style={{
-                      backgroundImage: 'url(${require("images/about-2.jpg")})',
-                    }}
+                    // style={{
+                    //   backgroundImage: 'url(${require("images/about-2.jpg")})',
+                    // }}
                   ></div>
                   <h3>
                     <a href=" ">Our Beginning</a>
@@ -125,9 +125,9 @@ function Aboutus() {
                 <div className="tab-pane container p-0" id="about-3">
                   <div
                     className="img"
-                    style={{
-                      backgroundImage: 'url(${require("images/about-3.jpg")})',
-                    }}
+                    // style={{
+                    //   backgroundImage: 'url(${require("images/about-3.jpg")})',
+                    // }}
                   ></div>
                   <h3>
                     <a href=" ">Our Mission</a>
@@ -144,9 +144,9 @@ function Aboutus() {
                 <div className="tab-pane container p-0" id="about-4">
                   <div
                     className="img"
-                    style={{
-                      backgroundImage: 'url(${require("images/about-4.jpg")})',
-                    }}
+                    // style={{
+                    //   backgroundImage: 'url(${require("images/about-4.jpg")})',
+                    // }}
                   ></div>
                   <h3>
                     <a href=" ">Our Vision</a>
@@ -163,9 +163,9 @@ function Aboutus() {
                 <div className="tab-pane container p-0" id="about-5">
                   <div
                     className="img"
-                    style={{
-                      backgroundImage: 'url(${require("images/about-5.jpg")})',
-                    }}
+                    // style={{
+                    //   backgroundImage: 'url(${require("images/about-5.jpg")})',
+                    // }}
                   ></div>
                   <h3>
                     <a href=" ">Our Mandate</a>
@@ -182,9 +182,9 @@ function Aboutus() {
                 <div className="tab-pane container p-0" id="about-6">
                   <div
                     className="img"
-                    style={{
-                      backgroundImage: 'url(${require("images/about-6.jpg")})',
-                    }}
+                    // style={{
+                    //   backgroundImage: 'url(${require("images/about-6.jpg")})',
+                    // }}
                   ></div>
                   <h3>
                     <a href=" ">Our Plans</a>

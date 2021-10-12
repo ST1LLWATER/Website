@@ -6,7 +6,7 @@ function Carousel() {
       {/* <!--Hero Section--> */}
       <section
         id="hero"
-        className="d-flex justify-content-center align-items-center"
+        className="d-flex justify-content-center align-items-center col-md-9 col-xs-12 "
       >
         <div
           id="heroCarousel"

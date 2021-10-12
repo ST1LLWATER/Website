@@ -17,7 +17,7 @@ function Announcement() {
       //             </div>
       //         </div>
       <>
-        <div className="col-md-4">
+        <div className="col-md-3">
           <div className="box-event">
             <div className="cs-section-title col-md-12">
               <h2>

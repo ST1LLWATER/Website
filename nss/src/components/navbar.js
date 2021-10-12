@@ -33,7 +33,7 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        {/* <div className="collapse navbar-collapse" id="myNavbar">
+        <div className="collapse navbar-collapse" id="myNavbar">
           <ul className="navbar-nav ml-auto my-2 my-lg-0">
             <li className="nav-item">
               <a className="nav-link" href="#">
@@ -76,9 +76,9 @@ function Navbar() {
               </a>
             </li>
           </ul>
-        </div> */}
+        </div>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        {/* <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
@@ -216,7 +216,7 @@ function Navbar() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

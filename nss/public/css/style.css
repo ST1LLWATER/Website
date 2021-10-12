@@ -8,6 +8,16 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.navbar {
+    background: rgba(82, 13, 211, 0.6);
+    color: #fff !important;
+}
+
+.navbar-brand {
+    color: #fff;
+    margin-left: 5%;
+}
+
 .nav-bg {
     background: rgba(82, 13, 211, 0.6);
 }
@@ -512,4 +522,19 @@ body {
     justify-content: center; */
     text-align: center;
     padding: 10px;
+}
+
+
+/* Scroll-up to the top */
+
+#scrollUp {
+    background: #04a699 none repeat scroll 0 0;
+    bottom: 30px;
+    color: #fff;
+    font-size: 30px;
+    height: 40px;
+    line-height: 44px;
+    right: 30px;
+    text-align: center;
+    width: 40px;
 }

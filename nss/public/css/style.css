@@ -9,7 +9,8 @@ body {
 }
 
 .navbar {
-    background: rgba(82, 13, 211, 0.6);
+    background: #303983;
+    /* background: rgba(82, 13, 211, 0.6); */
     color: #fff !important;
 }
 
@@ -28,7 +29,8 @@ body {
 }
 
 .nav-bg {
-    background: rgba(82, 13, 211, 0.6);
+    background: #303983;
+    /* background: rgba(82, 13, 211, 0.6); */
     opacity: 80%;
 }
 

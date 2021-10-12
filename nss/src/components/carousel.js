@@ -16,7 +16,7 @@ function Carousel() {
         >
           {/* <!--Slide-1--> */}
           <div className="carousel-item active">
-            <img src={president} />
+            {/* <img src={president} /> */}
 
             <div className="carousel-container">
               <h2 className="animate__animated animate__backInDown">

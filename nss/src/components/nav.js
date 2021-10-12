@@ -69,7 +69,7 @@ function NavBar() {
                 Programme Co-ordinator
               </ReactBootStrap.NavDropdown.Item>
               <ReactBootStrap.NavDropdown.Divider />
-              <ReactBootStrap.NavDropdown.Item href="admin">
+              <ReactBootStrap.NavDropdown.Item href="faq">
                 FAQ
               </ReactBootStrap.NavDropdown.Item>
             </ReactBootStrap.NavDropdown>

@@ -27,30 +27,27 @@ function Team() {
               >
                 <div class="team-top">
                   <div class="team-thumb mb-30">
-                    <img
-                      src={pc}
-                      alt=""
-                    />
+                    <img src={pc} alt="" />
                   </div>
                   <ul class="team-social">
                     <li>
                       <a href="#">
-                        <i class="ti-facebook"></i>
+                        <i class="fab fa-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-twitter-alt"></i>
+                        <i class="fab fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-google"></i>
+                        <i class="fas fa-envelope"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-instagram"></i>
+                        <i class="fab fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
@@ -71,30 +68,27 @@ function Team() {
               >
                 <div class="team-top">
                   <div class="team-thumb mb-30">
-                    <img
-                      src={pc}
-                      alt=""
-                    />
+                    <img src={pc} alt="" />
                   </div>
                   <ul class="team-social">
                     <li>
                       <a href="#">
-                        <i class="ti-facebook"></i>
+                        <i class="fab fa-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-twitter-alt"></i>
+                        <i class="fab fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-google"></i>
+                        <i class="fas fa-envelope"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-instagram"></i>
+                        <i class="fab fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
@@ -120,22 +114,22 @@ function Team() {
                   <ul class="team-social">
                     <li>
                       <a href="">
-                        <i class="ti-facebook"></i>
+                        <i class="fab fa-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-twitter-alt"></i>
+                        <i class="fab fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-google"></i>
+                        <i class="fas fa-envelope"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-instagram"></i>
+                        <i class="fab fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
@@ -156,30 +150,27 @@ function Team() {
               >
                 <div class="team-top">
                   <div class="team-thumb mb-30">
-                    <img
-                      src={pc}
-                      alt=""
-                    />
+                    <img src={pc} alt="" />
                   </div>
                   <ul class="team-social">
                     <li>
                       <a href="#">
-                        <i class="ti-facebook"></i>
+                        <i class="fab fa-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-twitter-alt"></i>
+                        <i class="fab fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-google"></i>
+                        <i class="fas fa-envelope"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-instagram"></i>
+                        <i class="fab fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
@@ -200,30 +191,27 @@ function Team() {
               >
                 <div class="team-top">
                   <div class="team-thumb mb-30">
-                    <img
-                      src={pc}
-                      alt=""
-                    />
+                    <img src={pc} alt="" />
                   </div>
                   <ul class="team-social">
                     <li>
                       <a href="#">
-                        <i class="ti-facebook"></i>
+                        <i class="fab fa-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-twitter-alt"></i>
+                        <i class="fab fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-google"></i>
+                        <i class="fas fa-envelope"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-instagram"></i>
+                        <i class="fab fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
@@ -249,22 +237,22 @@ function Team() {
                   <ul class="team-social">
                     <li>
                       <a href="#">
-                        <i class="ti-facebook"></i>
+                        <i class="fab fa-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-twitter-alt"></i>
+                        <i class="fab fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-google"></i>
+                        <i class="fas fa-envelope"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="ti-instagram"></i>
+                        <i class="fab fa-instagram"></i>
                       </a>
                     </li>
                   </ul>

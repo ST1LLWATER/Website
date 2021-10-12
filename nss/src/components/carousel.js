@@ -1,5 +1,6 @@
 import React from "react";
 import president from "../Images/presidentAward.jpg";
+import Announcement from "./announcement";
 function Carousel() {
   return (
     <div>
@@ -101,6 +102,7 @@ function Carousel() {
           </a>
         </div>
       </section>
+      {/* <Announcement /> */}
     </div>
   );
 }

@@ -37,22 +37,53 @@ function Navbar() {
           <ul className="navbar-nav ml-auto my-2 my-lg-0">
             <li className="nav-item">
               <a className="nav-link" href="#">
-                About
+                Home
               </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-display="static"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Organization
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-lg-right"
+                aria-labelledby="navbarDropdown"
+              >
+                <h6 class="dropdown-header">ORGANIZATION</h6>
+                <a class="dropdown-item" href="#">
+                  About Us
+                </a>
+                <a class="dropdown-item" href="#">
+                  Aim and Objective
+                </a>
+                <a class="dropdown-item" href="#">
+                  Organization Chart
+                </a>
+                <a class="dropdown-item" href="#">
+                  Administrative Structure
+                </a>
+                <a class="dropdown-item" href="#">
+                  Training Centers
+                </a>
+                <a class="dropdown-item" href="#">
+                  Programme Co-Ordinator
+                </a>
+                <a class="dropdown-item" href="#">
+                  FAQ
+                </a>
+              </div>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
                 Announcement
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Events
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Coordinators
               </a>
             </li>
             <li className="nav-item">
@@ -77,146 +108,6 @@ function Navbar() {
             </li>
           </ul>
         </div>
-
-        {/* <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
-                HOME
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#"
-                id="navbarScrollingDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                ORGANIZATION
-              </a>
-              <ul
-                class="dropdown-menu me-auto "
-                aria-labelledby="navbarScrollingDropdown"
-              >
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                AWARDS
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#"
-                id="navbarScrollingDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                ACTIVITIES
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarScrollingDropdown"
-              >
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                CO-ORDINATORS
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#"
-                id="navbarScrollingDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                DOC
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarScrollingDropdown"
-              >
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                FUTURE PLANS
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                ANNOUNCEMENT
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                CONTACT
-              </a>
-            </li>
-          </ul>
-        </div> */}
       </div>
     </nav>
   );

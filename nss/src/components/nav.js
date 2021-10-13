@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div className="App">
+    <div className="Nav">
       <ReactBootStrap.Navbar
         collapseOnSelect
         expand="xl"
@@ -32,8 +32,10 @@ function NavBar() {
               float="left"
             />
           </a>
-          <p>NATIONAL SERVICE SCHEME</p>
-          <p>Chhattisgarh Swami Vivekanand University</p>
+          <p className="csvtu-header">NATIONAL SERVICE SCHEME</p>
+          <p className="csvtu-header">
+            Chhattisgarh Swami Vivekanand University
+          </p>
         </ReactBootStrap.Navbar.Brand>
         <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav ">
@@ -61,11 +63,11 @@ function NavBar() {
                 Administrative Structure
               </ReactBootStrap.NavDropdown.Item>
               <ReactBootStrap.NavDropdown.Divider />
-              <ReactBootStrap.NavDropdown.Item href="admin">
+              <ReactBootStrap.NavDropdown.Item href="trainingcenter">
                 Training Centers
               </ReactBootStrap.NavDropdown.Item>
               <ReactBootStrap.NavDropdown.Divider />
-              <ReactBootStrap.NavDropdown.Item href="admin">
+              <ReactBootStrap.NavDropdown.Item href="programcoordinator">
                 Programme Co-ordinator
               </ReactBootStrap.NavDropdown.Item>
               <ReactBootStrap.NavDropdown.Divider />
@@ -93,7 +95,7 @@ function NavBar() {
               title="Docs"
               id="collasible-nav-dropdown"
             >
-              <ReactBootStrap.NavDropdown.Item href="minutesofmeetingSW">
+              <ReactBootStrap.NavDropdown.Item href="minutesofmeeting">
                 Minutes of meeting
               </ReactBootStrap.NavDropdown.Item>
               <ReactBootStrap.NavDropdown.Divider />
@@ -105,7 +107,7 @@ function NavBar() {
                 NSS Manual
               </ReactBootStrap.NavDropdown.Item>
               <ReactBootStrap.NavDropdown.Divider />
-              <ReactBootStrap.NavDropdown.Item href="organizationchart">
+              <ReactBootStrap.NavDropdown.Item href="download">
                 Download
               </ReactBootStrap.NavDropdown.Item>
             </ReactBootStrap.NavDropdown>

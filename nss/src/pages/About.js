@@ -3,10 +3,9 @@ import logo from "../Images/nss-logo.png";
 import "./css/about.css";
 import Announcement from "../components/announcement";
 
-
 const About = () => {
   return (
-    <div className="pages-height">
+    <div className=" ">
       <Announcement />
       <div class="field-content">
         <p>

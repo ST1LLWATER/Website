@@ -1,13 +1,15 @@
 import React from "react";
 import president from "../Images/presidentAward.jpg";
 import Announcement from "./announcement";
+import logo from "../Images/nss-logo.png";
+
 function Carousel() {
   return (
     <div>
       {/* <!--Hero Section--> */}
       <section
         id="hero"
-        className="d-flex justify-content-center align-items-center col-md-9 col-xs-12 "
+        className="d-flex justify-content-center align-items-center col-xl-9 col-xs-12 "
       >
         <div
           id="heroCarousel"
@@ -16,15 +18,15 @@ function Carousel() {
         >
           {/* <!--Slide-1--> */}
           <div className="carousel-item active">
-            {/* <img src={president} /> */}
+            <img src={logo} style={{ opacity: "80%" }} />
 
             <div className="carousel-container">
               <h2 className="animate__animated animate__backInDown">
                 NOT ME <span>BUT YOU</span>
               </h2>
               <p className="animate__animated animate__fadeInUp">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                iure beatae alias quod, ducimus explicabo. adipisicing elit.
+                The Motto of NSS "Not Me But You", reflects the essence of
+                democratic living and upholds the need for self-less service.
               </p>
               <a
                 href=" "
@@ -101,7 +103,9 @@ function Carousel() {
             <span className="sr-only">Next</span>
           </a>
         </div>
+        <Announcement />
       </section>
+
       {/* <Announcement /> */}
     </div>
   );

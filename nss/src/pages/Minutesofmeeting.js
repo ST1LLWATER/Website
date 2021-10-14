@@ -13,16 +13,16 @@ const Minutesofmeeting = () => {
         <div class="border-pattern"></div>
         <div class="view view-tender view-id-tender view-display-id-page_3 view-dom-id-eab46f73056ed4996f50f2ab2b3dcb1f">
           <div class="view-content">
-            <div class="guide-text">
+            {/* <div class="guide-text">
               Swipe to view <i class="fa fa-long-arrow-right"></i>
             </div>
             <div class="guide-text">
               Swipe to view <i class="fa fa-long-arrow-right"></i>
-            </div>
+            </div> */}
             <div class="scroll-table1">
-              <div class="guide-text">
+              {/* <div class="guide-text">
                 Swipe to view <i class="fa fa-long-arrow-right"></i>
-              </div>
+              </div> */}
               <div class="scroll-table1">
                 <div class="scroll-table">
                   <table class="views-table cols-5">
@@ -61,14 +61,14 @@ const Minutesofmeeting = () => {
                           data-label="
             S.No.          "
                         >
-                          11{" "}
+                          1{" "}
                         </td>
                         <td
                           class="views-field views-field-title"
                           data-label="
             Title          "
                         >
-                          NSS award 2017-18 - corrigendum{" "}
+                          Volunteer Time Bank-Kartavya APP{" "}
                         </td>
                         <td
                           class="views-field views-field-field-tender-srart-date"
@@ -95,7 +95,7 @@ const Minutesofmeeting = () => {
                             datatype="xsd:dateTime"
                             content="2019-09-05T00:00:00+05:30"
                           >
-                            05-Sep-2019
+                            4:00pm-5:00pm
                           </span>{" "}
                         </td>
                         <td

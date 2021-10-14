@@ -8,10 +8,21 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+@media (min-width: 1200px) {
+    .navbar-expand-xl {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: unset;
+        /* margin-block-end: 3px; */
+    }
+}
+
 .navbar {
     background: #303983;
     /* background: rgba(82, 13, 211, 0.6); */
     color: #fff !important;
+    margin-block-start: 3px;
+    margin-block-end: 3px;
 }
 
 .nav-logos {
@@ -44,7 +55,11 @@ body {
     outline: none !important;
 }
 
+.ReactBootStrap.Nav.Link:hover {
+    background: #000;
+}
 
+b
 /* .container:nth-child(1)>a>img {
     position: absolute;
     left: 0%;
@@ -54,7 +69,7 @@ body {
 #csvtu-logo {
     position: relative;
     left: 10px;
-    margin-left: 0px;
+    margin-left: 10px;
     margin-right: 10px;
     /* margin: 10px; */
 }
@@ -86,9 +101,11 @@ body {
     height: 70vh;
     overflow: hidden;
     position: relative;
+    /* background: #303983; */
+    background-color: black;
     /* width: 200%;
     height: 95%; */
-    background: rgba(26, 30, 236, 0.8);
+    /* background: rgba(26, 30, 236, 0.8); */
     /* background: linear-gradient(to right, indigo, white, indigo), url(".../src/Images/presidentAward.jpg") center top no-repeat; */
 }
 
@@ -103,6 +120,18 @@ body {
     z-index: 0;
     /* border-radius: 0 0 50% 50%; */
     transform: translateX(-50%) rotate(0deg);
+}
+
+#hero .carousel-control-next-icon {
+    float: right;
+}
+
+.motto {
+    display: flex;
+    position: relative;
+    float: right;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .carousel-item>img {
@@ -200,7 +229,7 @@ body {
     .rowC {
         display: flex;
         flex-direction: row;
-        border: 3px solid #000;
+        /* border: 3px solid #000; */
     }
 }
 
@@ -600,5 +629,168 @@ body {
 .rowC {
     display: flex;
     flex-direction: row;
-    border: 3px solid #000;
+    /* border: 3px solid #000; */
+}
+
+
+/* meeting */
+
+.border-pattern,
+.scroll-table1 {
+    border: 3px solid black;
+    justify-content: center;
+}
+
+.page__title {
+    text-align: center;
+    justify-content: center;
+    color: red;
+}
+
+
+/* Contact us  form */
+
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+.herosec h1 {
+    font-size: 100px;
+}
+
+.herosec p {
+    font-size: 20px;
+}
+
+.herosec a:hover {
+    background-color: black;
+}
+
+.servicesec {
+    padding: 80px 0px;
+}
+
+.servicesec a:hover {
+    border-color: #fff;
+    background-color: black;
+}
+
+.feature1sec {
+    padding: 60px 0;
+    background: #f9f9f9;
+}
+
+.feature1sec h2 {
+    margin-top: 70px;
+}
+
+.fearure1sec p {
+    font-size: 19px;
+}
+
+
+/* section.herosec {} */
+
+.feature2sec {
+    padding: 60px 0;
+}
+
+.feature2sec h2 {
+    margin-top: 70px;
+}
+
+.fearure2sec p {
+    font-size: 19px;
+}
+
+footer p {
+    margin: 0px;
+}
+
+.social li {
+    display: inline-block;
+    padding: 0px 11px;
+    list-style: none;
+}
+
+.social i {
+    font-size: 14px;
+}
+
+.pagetitle {
+    padding: 50px 0px;
+    background: linear-gradient(to right, #38ef7d, #11998e);
+}
+
+.pagetitle h2 {
+    font-size: 45px;
+}
+
+.aboutw {
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.aboutw h2 {
+    font-size: 40px;
+}
+
+.underline {
+    background: linear-gradient(to right, red, blue);
+    height: 2px;
+    width: 200px;
+    margin: 0 0 10px 0;
+}
+
+.ourteam {
+    padding: 80px 0px;
+}
+
+.ourteam h2 {
+    font-size: 40px;
+}
+
+.ourteam .desc {
+    padding: 0px 138px;
+}
+
+.ourteam .team {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ourteam .team h3 {
+    font-size: 20px;
+}
+
+.ourteam .team small {
+    font-style: italic;
+    font-size: 16 px;
+}
+
+.underline {
+    width: 375px;
+    background: linear-gradient(to top, grey, black);
+}
+
+.form-content {
+    font-family: verdana;
+    padding: 10px;
+    margin-top: 52px;
+    margin-bottom: 1rem;
+    background: linear-gradient(to right, #38ef7d, #11998e);
+}
+
+form#quiz {
+    margin: 100 px;
+    padding-left: 105px;
+    padding-top: 105px;
+}
+
+.body {
+    background: linear-gradient(to top, grey, white);
+}
+
+form {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
 }

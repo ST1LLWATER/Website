@@ -3,9 +3,19 @@
     z-index: 1;
 }
 
+.team-single:nth-child(4)>.team-top>.team-social {
+    margin-right: 10px;
+    padding: 0;
+    border: 2px solid #051f33;
+}
+
+ul {
+    list-style-type: none;
+}
+
 .team-single {
     background: #fff;
-    padding: 35px 30px;
+    /* padding: 35px 30px; */
 }
 
 .team-single .team-top .team-thumb img {
@@ -121,7 +131,7 @@
     color: #051f33;
     font-weight: 500;
     display: inline-block;
-    float: left;
+    /* float: left; */
 }
 
 .team-info-list li {
@@ -142,5 +152,5 @@
 
 .team-single-social a {
     color: #617486;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }

@@ -10,16 +10,16 @@ function NavBar() {
       <ReactBootStrap.Navbar
         collapseOnSelect
         expand="xl"
-        bg="primary"
-        variant="light"
+        bg="dark-blue"
+        variant="dark"
       >
         <ReactBootStrap.Navbar.Brand href="/">
-          <a href="#">
+          {/* <a href="#">
             <img
               id="nsslogo"
               src={logo}
               alt="NSS-LOGO"
-              height="100"
+              height="50"
               float="left"
             />
           </a>
@@ -28,18 +28,19 @@ function NavBar() {
               id="csvtu-logo"
               src={csvtu}
               alt="CSVTU-LOGO"
-              height="100"
+              height="50"
               float="left"
             />
-          </a>
-          <p className="csvtu-header">NATIONAL SERVICE SCHEME</p>
+          </a> */}
+
+          <p className="mr-auto csvtu-header">NATIONAL SERVICE SCHEME</p>
           <p className="csvtu-header">
-            Chhattisgarh Swami Vivekanand University
+            Chhattisgarh Swami Vivekanand Technical University
           </p>
         </ReactBootStrap.Navbar.Brand>
         <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav ">
-          <ReactBootStrap.Nav className="mr-auto main-nav">
+          <ReactBootStrap.Nav className="ms-auto main-nav">
             <Link to="/">
               <ReactBootStrap.Nav.Link href="/">Home</ReactBootStrap.Nav.Link>
             </Link>
@@ -123,17 +124,17 @@ function NavBar() {
                 Special Events
               </ReactBootStrap.NavDropdown.Item>
             </ReactBootStrap.NavDropdown>
-            <Link to="/latestnews">
+            {/* <Link to="/latestnews">
               <ReactBootStrap.Nav.Link href="Announcement">
                 Announcement
               </ReactBootStrap.Nav.Link>
-            </Link>
+            </Link> */}
 
-            <Link to="/programofficer">
+            {/* <Link to="/programofficer">
               <ReactBootStrap.Nav.Link href="ProgramOfficers">
                 Programme Officers
               </ReactBootStrap.Nav.Link>
-            </Link>
+            </Link> */}
             <Link to="/contact">
               <ReactBootStrap.Nav.Link eventKey={2} href="#Contact-Us">
                 Contact Us

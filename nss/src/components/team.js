@@ -3,6 +3,7 @@ import "../css/team.css";
 import pc from "../Images/pp.jfif";
 import ASK from "../Images/ASKabir.jfif";
 import SS from "../Images/SS.jpg";
+import MKV from "../Images/MKVerma.jfif";
 
 function Team() {
   return (
@@ -21,6 +22,47 @@ function Team() {
             {/* <h2>Our Leaders</h2> */}
           </div>
           <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6">
+              <div
+                class="team-single text-center mb-30 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <div class="team-top">
+                  <div class="team-thumb mb-30">
+                    <img src={MKV} alt="" />
+                  </div>
+                  <ul class="team-social">
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fas fa-envelope"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="team-text">
+                  <h3>
+                    <a href="team-details.html">Dr. M K Verma</a>
+                  </h3>
+                  <span>Vice Chancellor , CSVTU</span>
+                </div>
+              </div>
+            </div>
             <div class="col-xl-4 col-lg-4 col-md-6">
               <div
                 class="team-single text-center mb-30 aos-init aos-animate"
@@ -104,7 +146,7 @@ function Team() {
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="col-xl-6 col-lg-6 col-md-6">
               <div
                 class="team-single text-center mb-30 aos-init aos-animate"
                 data-aos="fade-up"
@@ -145,17 +187,17 @@ function Team() {
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="col-xl-6 col-lg-6 col-md-12">
               <div
                 class="team-single text-center mb-30 aos-init aos-animate"
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <div class="team-top">
+                <div class="team-top col-lg-4">
                   <div class="team-thumb mb-30">
                     <img src={pc} alt="" />
                   </div>
-                  <ul class="team-social">
+                  <ul class="team-social ">
                     <li>
                       <a href="https://www.facebook.com/devisingh.raghuwanshi">
                         <i class="fab fa-facebook"></i>
@@ -186,7 +228,7 @@ function Team() {
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
+            {/* <div class="col-xl-4 col-lg-4 col-md-6">
               <div
                 class="team-single text-center mb-30 aos-init aos-animate"
                 data-aos="fade-up"
@@ -226,48 +268,7 @@ function Team() {
                   <span>Programme Coordinator, CSVTU</span>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div
-                class="team-single text-center mb-30 aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="500"
-              >
-                <div class="team-top">
-                  <div class="team-thumb mb-30">
-                    <img src={pc} alt="" />
-                  </div>
-                  <ul class="team-social">
-                    <li>
-                      <a href="#">
-                        <i class="fab fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fas fa-envelope"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fab fa-instagram"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="team-text">
-                  <h3>
-                    <a href="team-details.html">Dr. M K Verma</a>
-                  </h3>
-                  <span>Vice Chancellor , CSVTU</span>
-                </div>
-              </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

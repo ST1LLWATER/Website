@@ -10,6 +10,7 @@ import "./components/announcement";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./components/nav";
 import "./components/header";
+import "./components/contactform";
 // import "./assets/main.css";
 
 import Navbar from "./components/navbar";
@@ -24,6 +25,7 @@ import Navbars from "./components/Navbars";
 import Footer from "./components/Footer";
 import NavBar from "./components/nav";
 import Header from "./components/header";
+import Contactform from "./components/contactform";
 
 //import pages
 import About from "./pages/About";
@@ -138,6 +140,9 @@ function App() {
         </Route>
         <Route exact path="/">
           <Project />
+        </Route>
+        <Route exact path="/">
+          <Contactform />
         </Route>
         <Footer />
         <a

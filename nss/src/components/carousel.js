@@ -2,6 +2,8 @@ import React from "react";
 import president from "../Images/presidentAward.jpg";
 import Announcement from "./announcement";
 import logo from "../Images/nss-logo.png";
+import flag from "../Images/flag.jfif";
+import hand from "../Images/hand.jfif";
 
 function Carousel() {
   return (
@@ -9,7 +11,7 @@ function Carousel() {
       {/* <!--Hero Section--> */}
       <section
         id="hero"
-        className="d-flex justify-content-center align-items-center col-xl-9 col-xs-12 "
+        className="d-flex justify-content-center align-items-center col-xl-12 col-xs-12 "
       >
         <div
           id="heroCarousel"
@@ -18,13 +20,13 @@ function Carousel() {
         >
           {/* <!--Slide-1--> */}
           <div className="carousel-item active">
-            <img src={logo} style={{ opacity: "80%" }} />
+            <img src={hand} style={{ opacity: "80%", width: "100%" }} />
 
             <div className="carousel-container">
               <h2 className="animate__animated animate__backInDown">
                 NOT ME <span>BUT YOU</span>
               </h2>
-              <p className="animate__animated animate__fadeInUp">
+              <p className="motto animate__animated animate__fadeInUp">
                 The Motto of NSS "Not Me But You", reflects the essence of
                 democratic living and upholds the need for self-less service.
               </p>
@@ -37,17 +39,19 @@ function Carousel() {
             </div>
           </div>
           {/* <!--End of Slide-1-->
-                    <!--Slide-1--> */}
+                    <!--Slide-2--> */}
           <div className="carousel-item">
             <div className="carousel-container">
-              <img src="./Images/presidentAward.jpg" />
+              <img src={logo} height="100px" />
 
               <h2 className="animate__animated animate__backInDown">
-                Lorem Ipsum-1
+                NSS LOGO
               </h2>
               <p className="animate__animated animate__fadeInUp">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                iure beatae alias quod, ducimus explicabo. adipisicing elit.
+                The symbol of the NSS is based on the ‘Rath’ wheel of the Konark
+                Sun Temple situated in Orissa. These giant wheels of the Sun
+                Temple portray the cycle of creation, preservation and release,
+                and signify the movement in life across time and space.
               </p>
               <a
                 href=" "
@@ -57,8 +61,8 @@ function Carousel() {
               </a>
             </div>
           </div>
-          {/* <!--End of Slide-1-->
-                     <!--Slide-2--> */}
+          {/* <!--End of Slide-2-->
+                     <!--Slide-3--> */}
           <div className="carousel-item">
             <div className="carousel-container">
               <img src="./Images/presidentAward.jpg" />
@@ -77,7 +81,7 @@ function Carousel() {
               </a>
             </div>
           </div>
-          {/* <!--End of Slide-2--> */}
+          {/* <!--End of Slide-3--> */}
           <a
             className="carousel-control-prev"
             href="#heroCarousel"
@@ -102,8 +106,11 @@ function Carousel() {
             ></span>
             <span className="sr-only">Next</span>
           </a>
+          {/* <Announcement /> */}
         </div>
-        <Announcement />
+        <div>
+          <Announcement />
+        </div>
       </section>
 
       {/* <Announcement /> */}

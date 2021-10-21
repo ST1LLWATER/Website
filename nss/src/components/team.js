@@ -29,7 +29,7 @@ function Team() {
                 data-aos-delay="500"
               >
                 <div class="team-top">
-                  <div class="team-thumb mb-30">
+                  <div class="team-thumb ">
                     <img src={MKV} alt="" />
                   </div>
                   <ul class="team-social">
@@ -70,7 +70,7 @@ function Team() {
                 data-aos-delay="100"
               >
                 <div class="team-top">
-                  <div class="team-thumb mb-30">
+                  <div class="team-thumb">
                     <img src={ASK} alt="" />
                   </div>
                   <ul class="team-social">
@@ -112,7 +112,7 @@ function Team() {
                 data-aos-delay="300"
               >
                 <div class="team-top">
-                  <div class="team-thumb mb-30">
+                  <div class="team-thumb">
                     <img src={SS} alt="Dr Samrendra Singh" />
                   </div>
                   <ul class="team-social">
@@ -153,7 +153,7 @@ function Team() {
                 data-aos-delay="100"
               >
                 <div class="team-top">
-                  <div class="team-thumb mb-30">
+                  <div class="team-thumb">
                     <img src={pc} alt="" />
                   </div>
                   <ul class="team-social">
@@ -193,8 +193,8 @@ function Team() {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <div class="team-top col-lg-4">
-                  <div class="team-thumb mb-30">
+                <div class="team-top">
+                  <div class="team-thumb">
                     <img src={pc} alt="" />
                   </div>
                   <ul class="team-social ">

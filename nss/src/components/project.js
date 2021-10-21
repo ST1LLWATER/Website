@@ -15,11 +15,15 @@ function Project() {
             </div>
           </div>
           {/* <!-----> */}
-          <div className="row">
+          <div className="row d-flex justify-content-center align-items-center">
             {/* <!--single Project--> */}
-            <div className="col-10 col-md-6 col-lg-4">
-              <div className="project-container p-5 outline">
-                <img src="Images/img-1.jpg" className="img-fluid grow" alt="" />
+            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column">
+              <div className="project-container outline">
+                <img
+                  src="https://placehold.co/600x400"
+                  className="img-fluid grow"
+                  alt=""
+                />
                 <a herf="#" class="donation text-capitalize">
                   READ MORE
                 </a>
@@ -29,9 +33,13 @@ function Project() {
             </div>
             {/* <!--End of Single Project--> */}
             {/* <!--single Project--> */}
-            <div className="col-10 col-md-6 col-lg-4">
-              <div className="project-container p-5 outline">
-                <img src="Images/img-2.jpg" className="img-fluid grow" alt="" />
+            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column ">
+              <div className="project-container outline">
+                <img
+                  src="https://placehold.co/600x400"
+                  className="img-fluid grow"
+                  alt=""
+                />
                 <a herf="#" class="donation text-capitalize">
                   READ MORE
                 </a>
@@ -41,9 +49,13 @@ function Project() {
             </div>
             {/* <!--End of Single Project-->
 <!--single Project--> */}
-            <div className="col-10 col-md-6 col-lg-4">
-              <div className="project-container p-5 outline">
-                <img src="Images/img-3.jpg" className="img-fluid grow" alt="" />
+            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column ">
+              <div className="project-container outline">
+                <img
+                  src="https://placehold.co/600x400"
+                  className="img-fluid grow"
+                  alt=""
+                />
                 <a herf="#" class="donation text-capitalize">
                   READ MORE
                 </a>
@@ -53,9 +65,13 @@ function Project() {
             </div>
             {/* <!--End of Single Project-->
 <!--single Project--> */}
-            <div className="col-10 col-md-6 col-lg-4">
-              <div className="project-container p-5 outline">
-                <img src="Images/img-4.jpg" className="img-fluid grow" alt="" />
+            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column ">
+              <div className="project-container outline">
+                <img
+                  src="https://placehold.co/600x400"
+                  className="img-fluid grow"
+                  alt=""
+                />
                 <a herf="#" class="donation text-capitalize">
                   READ MORE
                 </a>
@@ -65,9 +81,13 @@ function Project() {
             </div>
             {/* <!--End of Single Project-->
 <!--single Project--> */}
-            <div className="col-10 col-md-6 col-lg-4">
-              <div className="project-container p-5 outline">
-                <img src="Images/img-5.jpg" className="img-fluid grow" alt="" />
+            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column ">
+              <div className="project-container  outline">
+                <img
+                  src="https://placehold.co/600x400"
+                  className="img-fluid grow"
+                  alt=""
+                />
                 <a herf="#" class="donation text-capitalize">
                   READ MORE
                 </a>
@@ -77,9 +97,13 @@ function Project() {
             </div>
             {/* <!--End of Single Project--> */}
             {/* <!--single Project--> */}
-            <div className="col-10 col-md-6 col-lg-4">
-              <div className="project-container p-5 outline">
-                <img src="Images/img-6.jpg" className="img-fluid grow" alt="" />
+            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column ">
+              <div className="project-container outline">
+                <img
+                  src="https://placehold.co/600x400"
+                  className="img-fluid grow"
+                  alt=""
+                />
                 <a herf="#" class="donation text-capitalize">
                   READ MORE
                 </a>

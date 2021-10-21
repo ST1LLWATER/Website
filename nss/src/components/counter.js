@@ -46,7 +46,7 @@ const Counters = () => {
       </div> */}
       <section id="counter" class="counter-section">
         <div class="container">
-          <ul class="row counters">
+          <ul class="row counters d-flex justify-content-center">
             <li class="col-md-3 col-sm-6 sm-padding">
               <div class="counter-content">
                 <i class="ti-money"></i>

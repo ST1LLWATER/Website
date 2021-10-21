@@ -31,7 +31,7 @@ ul {
 .connections {
   display: flex;
   justify-content: space-around;
-
+  height: 80%;
   margin: 0 10px;
   font-size: 1.7rem;
 }

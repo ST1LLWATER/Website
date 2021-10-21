@@ -1,6 +1,5 @@
 /* ====================================================================Funfact Style====================================================================***/
 
-
 /* 
 .fact-counter {
     position: relative;
@@ -67,7 +66,6 @@
 
 /* Style two */
 
-
 /* .fact-counter.style-two {
     background-color: #fff;
 }
@@ -88,53 +86,56 @@
     color: #555;
 } */
 
-
 /* ==========================================================================
 9.0 Counter Section==========================================================================*/
 
 .counter-section {
-    background-image: linear-gradient(to right, rgb(89, 89, 214), blue);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    background-size: cover;
-    padding: 100px 0;
-    border-radius: 100%;
-    place-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    opacity: 50%;
-    text-align: center;
-    justify-content: center;
+  background-image: linear-gradient(to right, rgb(89, 89, 214), blue);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 100px 0;
+  border-radius: 100%;
+  place-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 50%;
+  text-align: center;
+  justify-content: center;
 }
 
 #counter.counter-section {
-    top: 30%;
-    z-index: -1;
+  top: 30%;
+  z-index: -1;
+}
+
+.counters {
+  padding: 0;
 }
 
 .counters .counter-content {
-    display: block;
-    /* flex-direction: column; */
-    text-align: center;
-    place-content: center;
-    color: #fff;
-    left: 30%;
+  display: block;
+  /* flex-direction: column; */
+  text-align: center;
+  place-content: center;
+  color: #fff;
+  left: 30%;
 }
 
 .counters .counter-content i {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .counters .counter-content h3 {
-    font-size: 48px;
-    margin: 10px 0;
-    color: #f8b864;
-    font-weight: 600;
+  font-size: 48px;
+  margin: 10px 0;
+  color: #f8b864;
+  font-weight: 600;
 }
 
 .counters .counter-content h4 {
-    font-size: 18px;
-    margin: 0;
+  font-size: 18px;
+  margin: 0;
 }

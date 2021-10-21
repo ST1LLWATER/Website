@@ -21,8 +21,8 @@ function Team() {
             <h5>Our Team</h5>
             {/* <h2>Our Leaders</h2> */}
           </div>
-          <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6">
+          <div class="row d-flex justify-content-center">
+            <div class="col-xl-4 col-lg-4 col-md-6 d-flex justify-content-center my-2">
               <div
                 class="team-single text-center mb-30 aos-init aos-animate"
                 data-aos="fade-up"
@@ -33,20 +33,6 @@ function Team() {
                     <div class="team-thumb ">
                       <img src={MKV} alt="" />
                     </div>
-                    <div className="connections d-flex flex-column">
-                      <a href="#">
-                        <i class="fab fa-facebook"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fas fa-envelope"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-instagram"></i>
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div class="team-text">
@@ -56,8 +42,22 @@ function Team() {
                   <span>Vice Chancellor , CSVTU</span>
                 </div>
               </div>
+              <div className="connections d-flex flex-column">
+                <a href="#">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fas fa-envelope"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="col-xl-4 col-lg-4 col-md-6 d-flex justify-content-center my-2">
               <div
                 class="team-single text-center mb-30 aos-init aos-animate"
                 data-aos="fade-up"
@@ -68,20 +68,6 @@ function Team() {
                     <div class="team-thumb">
                       <img src={ASK} alt="" />
                     </div>
-                    <div className="connections d-flex flex-column">
-                      <a href="#">
-                        <i class="fab fa-facebook"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fas fa-envelope"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-instagram"></i>
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div class="team-text">
@@ -91,9 +77,23 @@ function Team() {
                   <span>Regional Director, MP-CG, Bhopal</span>
                 </div>
               </div>
+              <div className="connections d-flex flex-column">
+                <a href="#">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fas fa-envelope"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
             </div>
 
-            <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="col-xl-4 col-lg-4 col-md-6 d-flex justify-content-center my-2">
               <div
                 class="team-single text-center mb-30 aos-init aos-animate"
                 data-aos="fade-up"
@@ -104,20 +104,6 @@ function Team() {
                     <div class="team-thumb">
                       <img src={SS} alt="Dr Samrendra Singh" />
                     </div>
-                    <div className="connections d-flex flex-column">
-                      <a href="#">
-                        <i class="fab fa-facebook"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fas fa-envelope"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-instagram"></i>
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div class="team-text">
@@ -127,8 +113,22 @@ function Team() {
                   <span>State NSS Officer , Chhattisgarh</span>
                 </div>
               </div>
+              <div className="connections d-flex flex-column">
+                <a href="#">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fas fa-envelope"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6">
+            <div class="col-xl-4 col-lg-4 col-md-6 d-flex justify-content-center my-2">
               <div
                 class="team-single text-center mb-30 aos-init aos-animate"
                 data-aos="fade-up"
@@ -138,20 +138,6 @@ function Team() {
                   <div className="d-flex justify-content-center">
                     <div class="team-thumb">
                       <img src={pc} alt="" />
-                    </div>
-                    <div className="connections d-flex flex-column">
-                      <a href="#">
-                        <i class="fab fa-facebook"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fas fa-envelope"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-instagram"></i>
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -162,8 +148,22 @@ function Team() {
                   <span>Programme Coordinator, CSVTU</span>
                 </div>
               </div>
+              <div className="connections d-flex flex-column">
+                <a href="#">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fas fa-envelope"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-12">
+            <div class="col-xl-4 col-lg-4 col-md-6 d-flex justify-content-center my-2">
               <div
                 class="team-single text-center mb-30 aos-init aos-animate"
                 data-aos="fade-up"
@@ -174,20 +174,6 @@ function Team() {
                     <div class="team-thumb">
                       <img src={pc} alt="" />
                     </div>
-                    <div className="connections d-flex flex-column">
-                      <a href="#">
-                        <i class="fab fa-facebook"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fas fa-envelope"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-instagram"></i>
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div class="team-text">
@@ -196,6 +182,20 @@ function Team() {
                   </h3>
                   <span>Programme Coordinator, CSVTU</span>
                 </div>
+              </div>
+              <div className="connections d-flex flex-column">
+                <a href="#">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fas fa-envelope"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
               </div>
             </div>
             {/* <div class="col-xl-4 col-lg-4 col-md-6">

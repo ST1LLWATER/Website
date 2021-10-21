@@ -29,31 +29,25 @@ function Team() {
                 data-aos-delay="500"
               >
                 <div class="team-top">
-                  <div class="team-thumb ">
-                    <img src={MKV} alt="" />
-                  </div>
-                  <ul class="team-social">
-                    <li>
+                  <div className="d-flex justify-content-center">
+                    <div class="team-thumb ">
+                      <img src={MKV} alt="" />
+                    </div>
+                    <div className="connections d-flex flex-column">
                       <a href="#">
                         <i class="fab fa-facebook"></i>
                       </a>
-                    </li>
-                    <li>
                       <a href="#">
                         <i class="fab fa-twitter"></i>
                       </a>
-                    </li>
-                    <li>
                       <a href="#">
                         <i class="fas fa-envelope"></i>
                       </a>
-                    </li>
-                    <li>
                       <a href="#">
                         <i class="fab fa-instagram"></i>
                       </a>
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
                 </div>
                 <div class="team-text">
                   <h3>
@@ -70,31 +64,25 @@ function Team() {
                 data-aos-delay="100"
               >
                 <div class="team-top">
-                  <div class="team-thumb">
-                    <img src={ASK} alt="" />
-                  </div>
-                  <ul class="team-social">
-                    <li>
-                      <a href="https://www.facebook.com/ListenKabir">
+                  <div className="d-flex justify-content-center">
+                    <div class="team-thumb">
+                      <img src={ASK} alt="" />
+                    </div>
+                    <div className="connections d-flex flex-column">
+                      <a href="#">
                         <i class="fab fa-facebook"></i>
                       </a>
-                    </li>
-                    <li>
                       <a href="#">
                         <i class="fab fa-twitter"></i>
                       </a>
-                    </li>
-                    <li>
                       <a href="#">
                         <i class="fas fa-envelope"></i>
                       </a>
-                    </li>
-                    <li>
-                      <a href="https://instagram.com/listenkabir?utm_medium=copy_link">
+                      <a href="#">
                         <i class="fab fa-instagram"></i>
                       </a>
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
                 </div>
                 <div class="team-text">
                   <h3>
@@ -112,31 +100,25 @@ function Team() {
                 data-aos-delay="300"
               >
                 <div class="team-top">
-                  <div class="team-thumb">
-                    <img src={SS} alt="Dr Samrendra Singh" />
-                  </div>
-                  <ul class="team-social">
-                    <li>
-                      <a href="https://www.facebook.com/samarendra.singh.5817">
+                  <div className="d-flex justify-content-center">
+                    <div class="team-thumb">
+                      <img src={SS} alt="Dr Samrendra Singh" />
+                    </div>
+                    <div className="connections d-flex flex-column">
+                      <a href="#">
                         <i class="fab fa-facebook"></i>
                       </a>
-                    </li>
-                    <li>
                       <a href="#">
                         <i class="fab fa-twitter"></i>
                       </a>
-                    </li>
-                    <li>
                       <a href="#">
                         <i class="fas fa-envelope"></i>
                       </a>
-                    </li>
-                    <li>
                       <a href="#">
                         <i class="fab fa-instagram"></i>
                       </a>
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
                 </div>
                 <div class="team-text">
                   <h3>
@@ -153,31 +135,25 @@ function Team() {
                 data-aos-delay="100"
               >
                 <div class="team-top">
-                  <div class="team-thumb">
-                    <img src={pc} alt="" />
-                  </div>
-                  <ul class="team-social">
-                    <li>
+                  <div className="d-flex justify-content-center">
+                    <div class="team-thumb">
+                      <img src={pc} alt="" />
+                    </div>
+                    <div className="connections d-flex flex-column">
                       <a href="#">
                         <i class="fab fa-facebook"></i>
                       </a>
-                    </li>
-                    <li>
                       <a href="#">
                         <i class="fab fa-twitter"></i>
                       </a>
-                    </li>
-                    <li>
                       <a href="#">
                         <i class="fas fa-envelope"></i>
                       </a>
-                    </li>
-                    <li>
                       <a href="#">
                         <i class="fab fa-instagram"></i>
                       </a>
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
                 </div>
                 <div class="team-text">
                   <h3>
@@ -194,31 +170,25 @@ function Team() {
                 data-aos-delay="100"
               >
                 <div class="team-top">
-                  <div class="team-thumb">
-                    <img src={pc} alt="" />
-                  </div>
-                  <ul class="team-social ">
-                    <li>
-                      <a href="https://www.facebook.com/devisingh.raghuwanshi">
+                  <div className="d-flex justify-content-center">
+                    <div class="team-thumb">
+                      <img src={pc} alt="" />
+                    </div>
+                    <div className="connections d-flex flex-column">
+                      <a href="#">
                         <i class="fab fa-facebook"></i>
                       </a>
-                    </li>
-                    <li>
                       <a href="#">
                         <i class="fab fa-twitter"></i>
                       </a>
-                    </li>
-                    <li>
                       <a href="#">
                         <i class="fas fa-envelope"></i>
                       </a>
-                    </li>
-                    <li>
-                      <a href="https://instagram.com/dsraghu29?utm_medium=copy_link">
+                      <a href="#">
                         <i class="fab fa-instagram"></i>
                       </a>
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
                 </div>
                 <div class="team-text">
                   <h3>

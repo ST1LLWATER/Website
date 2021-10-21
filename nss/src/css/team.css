@@ -19,7 +19,6 @@ ul {
 }
 
 .team-single .team-top .team-thumb img {
-  border-radius: 50%;
   background: #e6e7ec;
   width: 250px;
   height: 250px;
@@ -27,6 +26,14 @@ ul {
 
 .team-top {
   position: relative;
+}
+
+.connections {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 0 10px;
+  font-size: 1.7rem;
 }
 
 .team-social {

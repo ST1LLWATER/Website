@@ -47,13 +47,13 @@ function Team() {
                   <i class="fab fa-facebook"></i>
                 </a>
                 <a href="#">
-                  <i class="fab fa-twitter"></i>
+                  <i style={{ color: "#1DA1F2" }} class="fab fa-twitter"></i>
                 </a>
                 <a href="#">
-                  <i class="fas fa-envelope"></i>
+                  <i style={{ color: "#79c55d" }} class="fas fa-envelope"></i>
                 </a>
                 <a href="#">
-                  <i class="fab fa-instagram"></i>
+                  <i style={{ color: "#ff566e" }} class="fab fa-instagram"></i>
                 </a>
               </div>
             </div>
@@ -82,13 +82,13 @@ function Team() {
                   <i class="fab fa-facebook"></i>
                 </a>
                 <a href="#">
-                  <i class="fab fa-twitter"></i>
+                  <i style={{ color: "#1DA1F2" }} class="fab fa-twitter"></i>
                 </a>
                 <a href="#">
-                  <i class="fas fa-envelope"></i>
+                  <i style={{ color: "#79c55d" }} class="fas fa-envelope"></i>
                 </a>
                 <a href="#">
-                  <i class="fab fa-instagram"></i>
+                  <i style={{ color: "#ff566e" }} class="fab fa-instagram"></i>
                 </a>
               </div>
             </div>
@@ -118,48 +118,13 @@ function Team() {
                   <i class="fab fa-facebook"></i>
                 </a>
                 <a href="#">
-                  <i class="fab fa-twitter"></i>
+                  <i style={{ color: "#1DA1F2" }} class="fab fa-twitter"></i>
                 </a>
                 <a href="#">
-                  <i class="fas fa-envelope"></i>
+                  <i style={{ color: "#79c55d" }} class="fas fa-envelope"></i>
                 </a>
                 <a href="#">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 d-flex justify-content-center my-2">
-              <div
-                class="team-single text-center mb-30 aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div class="team-top">
-                  <div className="d-flex justify-content-center">
-                    <div class="team-thumb">
-                      <img src={pc} alt="" />
-                    </div>
-                  </div>
-                </div>
-                <div class="team-text">
-                  <h3>
-                    <a href="team-details.html">Dr. D S Raghuwanshi</a>
-                  </h3>
-                  <span>Programme Coordinator, CSVTU</span>
-                </div>
-              </div>
-              <div className="connections d-flex flex-column">
-                <a href="#">
-                  <i class="fab fa-facebook"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#">
-                  <i class="fas fa-envelope"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-instagram"></i>
+                  <i style={{ color: "#ff566e" }} class="fab fa-instagram"></i>
                 </a>
               </div>
             </div>
@@ -188,13 +153,48 @@ function Team() {
                   <i class="fab fa-facebook"></i>
                 </a>
                 <a href="#">
-                  <i class="fab fa-twitter"></i>
+                  <i style={{ color: "#1DA1F2" }} class="fab fa-twitter"></i>
                 </a>
                 <a href="#">
-                  <i class="fas fa-envelope"></i>
+                  <i style={{ color: "#79c55d" }} class="fas fa-envelope"></i>
                 </a>
                 <a href="#">
-                  <i class="fab fa-instagram"></i>
+                  <i style={{ color: "#ff566e" }} class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 d-flex justify-content-center my-2">
+              <div
+                class="team-single text-center mb-30 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="team-top">
+                  <div className="d-flex justify-content-center">
+                    <div class="team-thumb">
+                      <img src={pc} alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="team-text">
+                  <h3>
+                    <a href="team-details.html">Dr. D S Raghuwanshi</a>
+                  </h3>
+                  <span>Programme Coordinator, CSVTU</span>
+                </div>
+              </div>
+              <div className="connections d-flex flex-column">
+                <a href="#">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i style={{ color: "#1DA1F2" }} class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i style={{ color: "#79c55d" }} class="fas fa-envelope"></i>
+                </a>
+                <a href="#">
+                  <i style={{ color: "#ff566e" }} class="fab fa-instagram"></i>
                 </a>
               </div>
             </div>

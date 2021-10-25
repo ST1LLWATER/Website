@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100vw !important;
+  overflow-x: hidden;
+}
+
+.force {
+  width: 100vw !important;
 }
 
 body {
@@ -39,7 +45,7 @@ body {
 
 .navbar-brand {
   color: #fff;
-  margin-left: 10%;
+  /* margin-left: 10%; */
 }
 
 .nav-bg {
@@ -235,15 +241,10 @@ b
   #hero h2 {
     font-size: 28px;
   }
-  #hero:after {
-    width: 180%;
-    height: 95%;
-    /* border-radius: 0 0 50% 50%; */
-    /* transform: translateX(-50%) rotate(0deg); */
-  }
+
   #hero:before {
     top: 0;
-    width: 180%;
+    /* width: 180%; */
     height: 94%;
     /* border-radius: 0 0 50% 50%; */
     /* transform: translateX(-50%) translateY(20px) rotate(4deg); */
@@ -272,7 +273,7 @@ b
   #hero:after {
     left: 40%;
     top: 0;
-    width: 200%;
+    /* width: 200%; */
     height: 95%;
     /* border-radius: 0 0 50% 50%; */
     /* transform: translateX(-50%) rotate(0deg); */
@@ -292,15 +293,10 @@ b
   }
   .navbar-brand {
     display: flex;
+    width: 100vw;
     flex-wrap: wrap;
     float: top left;
     padding-left: 0em;
-  }
-  .csvtu-header {
-    display: flex;
-    flex-wrap: nowrap;
-    float: left;
-    padding: 0;
   }
 }
 

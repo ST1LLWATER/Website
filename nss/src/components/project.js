@@ -17,7 +17,7 @@ function Project() {
           {/* <!-----> */}
           <div className="row d-flex justify-content-center align-items-center">
             {/* <!--single Project--> */}
-            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column">
+            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column force">
               <div className="project-container outline">
                 <img
                   src="https://placehold.co/600x400"
@@ -33,7 +33,7 @@ function Project() {
             </div>
             {/* <!--End of Single Project--> */}
             {/* <!--single Project--> */}
-            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column ">
+            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column force ">
               <div className="project-container outline">
                 <img
                   src="https://placehold.co/600x400"
@@ -49,7 +49,7 @@ function Project() {
             </div>
             {/* <!--End of Single Project-->
 <!--single Project--> */}
-            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column ">
+            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column force ">
               <div className="project-container outline">
                 <img
                   src="https://placehold.co/600x400"
@@ -65,7 +65,7 @@ function Project() {
             </div>
             {/* <!--End of Single Project-->
 <!--single Project--> */}
-            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column ">
+            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column force ">
               <div className="project-container outline">
                 <img
                   src="https://placehold.co/600x400"
@@ -81,7 +81,7 @@ function Project() {
             </div>
             {/* <!--End of Single Project-->
 <!--single Project--> */}
-            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column ">
+            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column force ">
               <div className="project-container  outline">
                 <img
                   src="https://placehold.co/600x400"
@@ -97,7 +97,7 @@ function Project() {
             </div>
             {/* <!--End of Single Project--> */}
             {/* <!--single Project--> */}
-            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column ">
+            <div className="col-10 col-md-6 col-lg-4 d-flex flex-column force ">
               <div className="project-container outline">
                 <img
                   src="https://placehold.co/600x400"

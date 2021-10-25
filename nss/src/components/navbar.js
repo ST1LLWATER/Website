@@ -8,7 +8,7 @@ function Navbar() {
       className="navbar navbar-expand-lg navbar-light nav-bg  py-2"
       id="mainNav"
     >
-      <div className="container">
+      <div className="_navbar">
         <a href="#">
           <img id="nsslogo" src={logo} alt="NSS-LOGO" />
         </a>
